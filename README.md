@@ -38,7 +38,7 @@ Divide the frame into halves and assign the smaller frame and Rotate the frame u
 
 ## i) Write the frame as JPG file 
 
-```
+```python
 import cv2
 obj = cv2.VideoCapture(0)
 while(True):
@@ -56,7 +56,7 @@ obj.release()
 
 ## ii) Display the video
 
-```
+```python
 
 import cv2
 img = cv2.VideoCapture(0)
@@ -73,7 +73,7 @@ cv2.destroyAllWindows()
 
 ## iii) Display the video by resizing the window
 
-```
+```python
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -98,7 +98,7 @@ cv2.destroyAllWindows()
 
 ## iv) Rotate and display the video
 
-```
+```python
 import cv2
 import numpy as np
 cap = cv2.VideoCapture(0)
@@ -140,7 +140,7 @@ cv2.destroyAllWindows()
 
 ### ii) Display the video
 
-![image](https://github.com/user-attachments/assets/ebe29fce-e22b-460a-97b3-107b70972888)
+![image](https://github.com/user-attachments/assets/5e754dfe-562d-4845-ab93-d175ad434fd7)
 
 
 </br>
@@ -149,7 +149,7 @@ cv2.destroyAllWindows()
 
 ### iii) Display the video by resizing the window
 
-![image](https://github.com/user-attachments/assets/d2d86af9-9760-42e2-8e46-5f1c79844765)
+![image](https://github.com/user-attachments/assets/db055754-0914-400b-9c7f-d6b5aa41c3b9)
 
 
 </br>
@@ -159,7 +159,7 @@ cv2.destroyAllWindows()
 
 ### iv) Rotate and display the video
 
-![image](https://github.com/user-attachments/assets/32fc183b-d2c9-42fc-8b71-7fde42aa49e9)
+![image](https://github.com/user-attachments/assets/ea42467c-6561-4142-ba16-06e2b9cb6276)
 
 
 </br>
